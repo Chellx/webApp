@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block the_content %}
+<head>
+<link rel="stylesheet" href="/static/formcss.css">
+</head> 
+<h3 align=center> Welcome to my website, feel free to fill out this form and leave a comment</h3>
+<center>
+<section class=frame>
+          <form method="POST" action="/processform">
+            E-Mail Address: <input type="EMAIL" placeholder="example@yahoo.ie" name="theemail"><br><br>
+			Comments:<br><textarea style="resize:none" name="thecomment" rows="4" cols="60" placeholder="Enter Comments Here..."></textarea>
+			<br><br>
+        <article class="boxcentre">
+            <input type="SUBMIT" value="Submit Form">
+            <input type="reset" value="Clear Form">
+        </article>
+
+        </form>
+</section>
+</center>
+
+
+{% endblock %}

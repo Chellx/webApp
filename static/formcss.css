@@ -1,0 +1,19 @@
+	.frame {
+		
+		
+		
+		border-style: hidden;
+		color:rgb(0, 0, 0); /*black*/
+		border-radius: 12px; /*rounded border*/
+		height: 250px;
+		width:  500px;
+		padding: 15px;
+		background: rgb(0, 153, 153) /*turquoise*/
+		
+	}
+
+
+	.boxcentre { /*align buttons*/
+		text-align:center;
+		padding:20px;
+	}

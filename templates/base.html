@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ the_title }}</title>
+        <link rel="stylesheet" href="static/basecss.css">
+    </head>
+
+    <body>
+        <h2 ALIGN=CENTER>{{ the_opening_title }}</h2>
+        <table ALIGN=CENTER>
+		<th>
+			<A STYLE ="TEXT-DECORATION:NONE" HREF="/">Homepage &nbsp;</A>
+			<A STYLE ="TEXT-DECORATION:NONE" HREF="/personalInfo">&nbsp; About Me &nbsp;</A>
+			<A STYLE ="TEXT-DECORATION:NONE" HREF="/cv">&nbsp; My CV &nbsp;</A>
+			<A STYLE ="TEXT-DECORATION:NONE" HREF="/faveTech">&nbsp; My Favourite Tech &nbsp;</A>
+			<A STYLE ="TEXT-DECORATION:NONE" HREF="/hobbies">&nbsp; Hobbies</A>
+		</th>
+		</table>
+		<hr>
+
+        
+        {% block the_content %}
+
+        {% endblock %}
+
+    
+    <p>
+    </p>
+    </body>
+</html>
