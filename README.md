@@ -1,2 +1,2 @@
 # webApp
-Python Web Application
+A Web Application created using Python (FLASK Framework), HTML & CSS
